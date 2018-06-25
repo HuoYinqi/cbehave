@@ -11,6 +11,7 @@ AC_CONFIG_FILES([Makefile src/Makefile src/example/Makefile])
 
 # Checks for programs.
 AC_PROG_CC
+AM_PROG_AR
 
 # for libtool
 AC_DISABLE_SHARED 
