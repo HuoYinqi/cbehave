@@ -24,5 +24,5 @@ $LIBTOOLIZE --copy --force
 
 automake --force-missing --add-missing --copy --foreign 
 
-autoconf
+autoreconf
 

@@ -4,11 +4,11 @@
 AC_PREREQ([2.64])
 AC_INIT([cbehave], [0.1.0-beta], [bigwhite.cn@gmail.com])
 AM_INIT_AUTOMAKE([foreign -Wall -Werror])
-LT_INIT
 
 AC_CONFIG_SRCDIR([src/cbehave.c])
 AC_CONFIG_HEADERS([src/config.h])
 AC_CONFIG_FILES([Makefile src/Makefile src/example/Makefile])
+AC_CONFIG_MACRO_DIRS([m4])
 
 # Checks for programs.
 AC_PROG_CC
